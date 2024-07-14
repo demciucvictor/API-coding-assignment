@@ -1,4 +1,4 @@
-package nl.learn.api_ca.entity;
+package nl.learn.ca.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

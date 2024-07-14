@@ -1,4 +1,4 @@
-package nl.learn.api_ca;
+package nl.learn.ca;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

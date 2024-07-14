@@ -1,4 +1,4 @@
-package nl.learn.api_ca;
+package nl.learn.ca;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package nl.learn.api_ca.dto;
+package nl.learn.ca.dto;
 
 import lombok.Builder;
 import lombok.Getter;

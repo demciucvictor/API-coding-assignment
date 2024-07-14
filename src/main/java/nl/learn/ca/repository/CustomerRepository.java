@@ -1,6 +1,6 @@
-package nl.learn.api_ca.repository;
+package nl.learn.ca.repository;
 
-import nl.learn.api_ca.entity.Customer;
+import nl.learn.ca.entity.Customer;
 import org.springframework.data.repository.CrudRepository;
 
 public interface CustomerRepository extends CrudRepository<Customer, Long> {
