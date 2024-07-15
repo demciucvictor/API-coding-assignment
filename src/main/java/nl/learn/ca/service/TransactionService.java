@@ -6,6 +6,7 @@ import nl.learn.ca.entity.Transaction;
 import nl.learn.ca.repository.TransactionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public class TransactionService {
@@ -17,6 +18,7 @@ public class TransactionService {
         this.transactionRepository = transactionRepository;
     }
 
+    @Transactional
     public Transaction createTransaction(Account account, Double amount) {
         Transaction transaction = new Transaction();
         transaction.setAccount(account);
